@@ -11,10 +11,14 @@ calculate = () => {
     result = number1 - number2;
   } else if (operation === "times") {
     result = number1 * number2;
-  } else if (operation === "minus") {
+  } else if (operation === "divide") {
     result = number1/number2;
   }
+
+  
   
   alert("Calculation: " + result);
-  
+
+  // console.log(operation)
+
 }
